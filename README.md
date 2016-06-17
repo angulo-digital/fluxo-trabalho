@@ -4,11 +4,11 @@ O fluxo foi definido nas 4 áreas listadas abaixo, onde é possível ver detalha
 
 ##Planejamento
 - Scrum `metodologia ágil`
-- Trello `controle de tarefas`
+- [Trello](/planejamento/trello.md) `controle de tarefas`
 - Planrockr `gerenciamento dos projetos`
 
 ##Desenvolvimento
-- GitFlow `fluxo do versionamento`
+- [GitFlow](/planejamento/git-flow.md) `fluxo do versionamento`
 - Docker `controle do ambiente local`
 - CodeReview `controle da qualidade do código`
 	- Manual
