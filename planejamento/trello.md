@@ -1,6 +1,7 @@
 # Trello
+> Controle de atividades
 
-Sistema escolhido para controle das atividades dos nossos projetos que são classificados nos seguintes tipos:
+Nossos projetos devem ser classificados nos seguintes tipos:
 
 - Site
 - Sistema
@@ -22,7 +23,7 @@ A nomenclatura de cada Board deverá seguir o seguinte padrão:
 
 ## Cards
 
-Deverá ser utilizado os seguintes cards em todos os tipos de projetos:
+Deverá ser utilizado os seguintes Cards em todos os tipos de projetos:
 
 - Documentation
 - Ideas
