@@ -1,4 +1,4 @@
-# GitFlow
+# Git Flow
 
 > Fluxo do versionamento dos projetos.
 
@@ -22,7 +22,7 @@ Um bom exemplo de um branch órfão, seria o branch `template`, onde o mesmo dev
 
 ### Nomenclatura de branches para os forks.
 
-Basicamente, em cada pull request, cada branch deve ser uma entrega. Por exemplo, uma pequena lista do que utilizar e do que não utilizar: 
+Basicamente, em cada pull request, cada branch deve ser uma entrega. Por exemplo, uma pequena lista do que utilizar e do que não utilizar:
 
 #### O que utilizar:
 

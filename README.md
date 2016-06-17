@@ -8,11 +8,9 @@ O fluxo foi definido nas 4 áreas listadas abaixo, onde é possível ver detalha
 - Planrockr `gerenciamento dos projetos`
 
 ##Desenvolvimento
-- [GitFlow](/planejamento/git-flow.md) `fluxo do versionamento`
+- [Git Flow](/desenvolvimento/git-flow.md) `fluxo do versionamento`
 - Docker `controle do ambiente local`
-- CodeReview `controle da qualidade do código`
-	- Manual
-	- Automatizado
+- Code Review `controle de qualidade do código`
 
 ##Build
 - Buildkite `ferramenta para controle dos testes`
