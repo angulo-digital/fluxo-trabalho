@@ -1,4 +1,4 @@
-O fluxo foi definido nas 4 áreas listadas abaixo, onde é possível ver detalhadamente suas respectivas características, processos, ferramentas, metodologias etc.
+O fluxo foi definido nas 4 áreas listadas abaixo, onde é possível ver detalhadamente suas respectivas características, processos, ferramentas, metodologias etc. Não deixe de conferir a [Wiki](https://github.com/angulo-digital/fluxo-trabalho/wiki) do projeto.
 
 [Sugestões](https://github.com/angulo-digital/fluxo-trabalho/issues) são bem vindas :heart:
 
