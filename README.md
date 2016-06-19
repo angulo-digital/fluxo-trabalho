@@ -1,4 +1,4 @@
-O fluxo foi definido nas 4 áreas listadas abaixo, onde é possível ver detalhadamente suas respectivas características, processos, ferramentas, metodologias etc. Não deixe de conferir a [Wiki](https://github.com/angulo-digital/fluxo-trabalho/wiki) do projeto.
+Modelo do fluxo de trabalho utilizado na empresa. Separado em 4 áreas bem definidas, o modelo tem como principal foco a padronização e agilidade nos processos internos, qualidade do código e entregas rápidas. Não deixe de conferir a [Wiki](https://github.com/angulo-digital/fluxo-trabalho/wiki) do projeto.
 
 [Sugestões](https://github.com/angulo-digital/fluxo-trabalho/issues) são bem vindas :heart:
 
