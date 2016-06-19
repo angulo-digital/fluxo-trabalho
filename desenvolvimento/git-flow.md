@@ -58,14 +58,22 @@ Deve ser um destes:
 - **feat**: Uma nova feature
 - **fix**: Um bug fix
 - **docs**: Alterações na documentação
-- **style**: Alterações que não afetarão o signifcado/lógica do código (white-space, formatação, falta de ponto e vírgula - em algumas linguagens, etc)
+- **syntax**: Alterações que não afetarão o signifcado/lógica do código (white-space, formatação, falta de ponto e vírgula - em algumas linguagens, etc)
 - **refactor**: Refatoração do código, mas que não é um bug fix e nem adiciona uma nova feature
 - **perf**: Mudança de código que traz uma melhoria de performance
 - **test**: Adicionando/melhorando os testes
 
 #### Escopo ou Módulo
 
-Pode ser definido como qualquer área do site, módulo do sistema, sub-site, área de um aplicativo, etc.
+Deve indicar um escopo ou módulo de sistema, área do site, sub-site, área de um aplicativo, etc.
+
+O escopo ou módulo deve ser escrito no singular e o padrão para nomenclatura de um módulo ou escopo específico deve ser seguido por todo o projeto para, futuramente, facilitar buscas, análises e automações.
+
+Exemplos:
+- `fix(usuario): remove incompatibilidade com IE 10` :white_check_mark:
+- `feat(evento): add visualização através de lista e calendário` :white_check_mark:
+- `feat(commit): segue o padrão estabelecido no primeiro commit` :white_check_mark:
+- `feat(users): sai do padrão estabelecido para o módulo de usuários` :x:
 
 #### Assunto
 
