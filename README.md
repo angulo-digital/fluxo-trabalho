@@ -11,14 +11,14 @@ Modelo do fluxo de trabalho utilizado na empresa. Separado em 4 áreas bem defin
 [Sugestões](https://github.com/angulo-digital/fluxo-trabalho/issues) são bem vindas :heart:
 
 ##Planejamento
-- Scrum `metodologia ágil`
+- Scrumban `metodologia ágil`
 - [Trello](/planejamento/trello.md) `controle de tarefas`
 - Planrockr `gerenciamento dos projetos`
 
 ##Desenvolvimento
 - [Git Flow](/desenvolvimento/git-flow.md) `fluxo do versionamento`
 - Docker `controle do ambiente local`
-- Code Review `controle de qualidade do código`
+- [Code Review](/desenvolvimento/code-review.md) `controle de qualidade do código`
 
 ##Build
 - Buildkite `ferramenta para controle dos testes`
