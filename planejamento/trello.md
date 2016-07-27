@@ -1,13 +1,14 @@
 # Trello
+
 > Controle de atividades
 
 Os projetos devem ser classificados em um dos seguintes tipos:
 
-- Site
-- Sistema
-- App
-- Protótipo
-- Manutenção
+- Site (site)
+- Sistema (sistema)
+- App (app)
+- Protótipo (prototipo)
+- Manutenção (manutencao)
 
 Para maiores detalhes da aplicação na prática do que será discutido neste documento, está disponível um [modelo](https://trello.com/b/Ngdm8HDe/0-modelo-prototipo) público de board com todas as regras deste documento.
 
@@ -20,17 +21,14 @@ A nomenclatura de cada Board deverá seguir o seguinte padrão:
 ```
 
 - **id**: Número inteiro aleatório sequencial
-- **nome**: Nome do projeto no formato **slug**
+- **nome**: Nome do projeto no formato
 - **tipo**: Tipo do projeto no formato **slug**
 
 ## Listas
 
 Deverá ser utilizado as seguintes Listas em todos os tipos de projetos:
 
-- **Material**: Documentos do cliente e materiais de apoio
-- **Ideas**: Possíveis novas features e discussões sobre o projeto
 - **Backlog**: Todas as atividades do projeto
-- **Sprint**: Tarefas selecionadas para um determinado sprint
 - **In Progress**: Tarefas que estão sendo executadas
 - **Review**: Code Review manual realizado pela equipe e automático realizado pelo Codacy
 - **Test**: Testes manuais realizados pela equipe e automático realizado pelo Buildkite
@@ -38,26 +36,32 @@ Deverá ser utilizado as seguintes Listas em todos os tipos de projetos:
 
 ## Cards
 
-Na criação de um Card deverá ser obrigatório a escolha do membro responsável pela solicitação, a seleção das devidas etiquetas, definição da data de entrega da tarefa, definição de uma descrição da solicitação e a nomenclatura do Card deverá seguir o seguinte padrão:
+Deverá ser obrigatório na criação de um card:
+
+- Escolha do membro responsável pela solicitação
+- Seleção das devidas etiquetas
+- Definição da data de entrega da tarefa
+- Definição de uma descrição da solicitação
+
+A Nomenclatura do Card deverá seguir o seguinte padrão:
 
 ```
-#<id> [estimativa] - <descricao>
+[estimativa] - <descricao>
 ```
 
-- **id**: Identificador do sprint
-- **estimativa**: estimativa de finalização da tarefas **em horas**
+- **estimativa**: estimativa de finalização da tarefa **em horas**
 - **descricao**: Descrição da tarefa
 
 Exemplos de utilização:
 
-- `#5 3h - Integrar página de eventos`
-- `#8 1h - Alterar links do rodapé`
+- `3h - Integrar página de eventos`
+- `1h - Alterar links do rodapé`
 
-**Observação:** As regras acima não precisam ser seguidas em listas como *Material* e *Ideas*.
+**Importante:** A discussão dentro dos cards é de total importância para o bom andamento do projeto, então, ative as notificações para ficar por dentro e responder em tempo ágil.
 
 ### Issues
 
-Para controle das Issues (incidências após a conclusão do projeto) de um projeto será utilizado o Bitbucket, porém, para que o gerenciamento dos projetos e das    atividades não sofra inconsistência, deverá ser criado cards seguindo o padrão mencionado acima com a inclusão de um checklist onde os itens serão as issues selecionadas para aquele card.
+Para controle das issues de um projeto será utilizado o Bitbucket, porém, para que o gerenciamento dos projetos e das atividades não sofram inconsistências, deverá ser criado cards seguindo o padrão mencionado acima com a inclusão de um checklist onde os itens serão as issues selecionadas para aquele card.
 
 Exemplos de nomenclatura para os itens do checklist:
 
@@ -67,20 +71,20 @@ Exemplos de nomenclatura para os itens do checklist:
 
 ## Etiquetas
 
-Cada etiqueta deverá ter um significado, e caso o pojeto não se encaixe em nenhum tipo estabelecido, definir juntamente com a equipe do projeto e adotar um padrão para as etiquetas.
-
-- **verde**: Aprovado
-- **rosa**: Design
+- **verde**:
+- **rosa**:
 - **verde(claro)**:
-- **preto**: Revisão
+- **preto**: Material
 - **azul**: Pendente
-- **amarelo**: Bloqueado
+- **amarelo**: Lembrete
 - **azul(claro)**: Bitbucket
 - **laranja**: Front End
 - **roxo**: Back End
-- **vermelho**: Bug
+- **vermelho**: Design
 
-## Extra
+**Importante:** Caso o pojeto não se encaixe em nenhum tipo estabelecido, definir juntamente com a equipe do projeto e adotar um padrão para as etiquetas.
+
+## Ferramentas Extras
 
 Deverá ser utilizado em todos os projetos as seguintes ferramentas extras:
 
